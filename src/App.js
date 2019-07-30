@@ -1,7 +1,6 @@
 import "./App.css";
 import React from "react";
 import { useForm } from "./useForm";
-import { log } from "util";
 
 const App = () => {
   const [values, handleChange] = useForm({ email: "", password: "" });
